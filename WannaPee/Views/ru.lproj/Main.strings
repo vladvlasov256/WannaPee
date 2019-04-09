@@ -1,0 +1,64 @@
+
+/* Class = "UIButton"; normalTitle = "Dirty"; ObjectID = "0Gq-z3-eJT"; */
+"0Gq-z3-eJT.normalTitle" = "Грязный";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "4w9-cU-bU4"; */
+"4w9-cU-bU4.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Set Location"; ObjectID = "6HP-FN-axh"; */
+"6HP-FN-axh.title" = "Местонахождение";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "6Wt-sx-VEb"; */
+"6Wt-sx-VEb.title" = "Item";
+
+/* Class = "UILabel"; text = "size"; ObjectID = "773-I2-K36"; */
+"773-I2-K36.text" = "size";
+
+/* Class = "UIViewController"; title = "Add Toilet"; ObjectID = "Axd-OD-coi"; */
+"Axd-OD-coi.title" = "Добавление туалета";
+
+/* Class = "UIButton"; normalTitle = "Closed"; ObjectID = "GuZ-7t-Nio"; */
+"GuZ-7t-Nio.normalTitle" = "Закрыто";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "I2d-dd-vsD"; */
+"I2d-dd-vsD.title" = "Дальше";
+
+/* Class = "UILabel"; text = "Offline Maps"; ObjectID = "JFs-oC-xeo"; */
+"JFs-oC-xeo.text" = "Офлайн карты";
+
+/* Class = "UIButton"; normalTitle = "Route"; ObjectID = "L9E-fK-tnX"; */
+"L9E-fK-tnX.normalTitle" = "Маршрут";
+
+/* Class = "UILabel"; text = "Wheelchair access"; ObjectID = "LLZ-ZW-Yrg"; */
+"LLZ-ZW-Yrg.text" = "Пандус";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "QUu-GD-hdu"; */
+"QUu-GD-hdu.title" = "Root View Controller";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "WFk-11-J57"; */
+"WFk-11-J57.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Add Toilet"; ObjectID = "YwG-Nx-fCo"; */
+"YwG-Nx-fCo.title" = "Добавление туалета";
+
+/* Class = "UILabel"; text = "Add Toilet"; ObjectID = "aJ2-pB-NEj"; */
+"aJ2-pB-NEj.text" = "Добавить туалет";
+
+/* Class = "UILabel"; text = "Report a problem"; ObjectID = "ack-Mj-nW9"; */
+"ack-Mj-nW9.text" = "Сообщить о проблеме";
+
+/* Class = "UINavigationItem"; title = "Offline Maps"; ObjectID = "enq-rf-HQh"; */
+"enq-rf-HQh.title" = "Офлайн карты";
+
+/* Class = "UILabel"; text = "700m"; ObjectID = "hkx-6a-Qzs"; */
+"hkx-6a-Qzs.text" = "700 м";
+
+/* Class = "UIButton"; normalTitle = "Missed"; ObjectID = "pXs-GU-C3Z"; */
+"pXs-GU-C3Z.normalTitle" = "Отсутствует";
+
+/* Class = "UILabel"; text = "Fee"; ObjectID = "te0-Q2-AGg"; */
+"te0-Q2-AGg.text" = "Платный";
+
+/* Class = "UIViewController"; title = "Set Location"; ObjectID = "z3E-pu-nnp"; */
+"z3E-pu-nnp.title" = "Местонахождение";
+

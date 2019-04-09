@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  WannaPee
+
+  Created by Vladimir Vlasov on 02.06.2018.
+  Copyright © 2018 Sofatech. All rights reserved.
+*/
+
+"NSLocationWhenInUseUsageDescription" = "Needs to know your location to show toilets near you and to recommend routes to them.";
+"NSCameraUsageDescription" = "Needs to use your camera to take photos of new toilets.";
+"NSPhotoLibraryUsageDescription" = "Needs to use your photos if you wish to submit a new toilet.";

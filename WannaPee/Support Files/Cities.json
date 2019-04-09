@@ -1,0 +1,122 @@
+ [{
+  "name": "Moscow",
+  "mapId": 1,
+  "southWest": {
+  "latitude": 54.98480,
+  "longitude": 36.07428
+  },
+  "northEast": {
+  "latitude": 56.32845,
+  "longitude": 39.03259
+  }
+  }, {
+  "name": "Saint Petersburg",
+  "mapId": 2,
+  "southWest": {
+  "latitude": 59.58560,
+  "longitude": 29.40448
+  },
+  "northEast": {
+  "latitude": 60.27640,
+  "longitude": 30.87116
+  }
+  }, {
+  "name": "Kazan",
+  "mapId": 3,
+  "southWest": {
+  "latitude": 55.57092,
+  "longitude": 48.42191
+  },
+  "northEast": {
+  "latitude": 56.08455,
+  "longitude": 49.72828
+  }
+  }, {
+  "name": "Kaliningrad",
+  "mapId": 2,
+  "southWest": {
+  "latitude": 54.31368,
+  "longitude": 19.83115
+  },
+  "northEast": {
+  "latitude": 54.97883,
+  "longitude": 21.60044
+  }
+  }, {
+  "name": "Nizhny Novgorod",
+  "mapId": 3,
+  "southWest": {
+  "latitude": 55.99775,
+  "longitude": 43.22543
+  },
+  "northEast": {
+  "latitude": 56.58091,
+  "longitude": 44.63001
+  }
+  }, {
+  "name": "Volgograd",
+  "mapId": 4,
+  "southWest": {
+  "latitude": 48.39962,
+  "longitude": 44.12886
+  },
+  "northEast": {
+  "latitude": 48.98212,
+  "longitude": 44.99190
+  }
+  }, {
+  "name": "Samara",
+  "mapId": 3,
+  "southWest": {
+  "latitude": 52.93613,
+  "longitude": 49.16363
+  },
+  "northEast": {
+  "latitude": 53.61472,
+  "longitude": 50.66656
+  }
+  }, {
+  "name": "Saransk",
+  "mapId": 3,
+  "southWest": {
+  "latitude": 54.02241,
+  "longitude": 44.83589
+  },
+  "northEast": {
+  "latitude": 54.34287,
+  "longitude": 45.49927
+  }
+  }, {
+  "name": "Rostov-on-Don",
+  "mapId": 4,
+  "southWest": {
+  "latitude": 46.95508,
+  "longitude": 39.22983
+  },
+  "northEast": {
+  "latitude": 47.53026,
+  "longitude": 40.28704
+  }
+  }, {
+  "name": "Sochi",
+  "mapId": 4,
+  "southWest": {
+  "latitude": 43.30994,
+  "longitude": 38.92776
+  },
+  "northEast": {
+  "latitude": 44.12136,
+  "longitude": 40.41681
+  }
+  }, {
+  "name": "Yekaterinburg",
+  "mapId": 5,
+  "southWest": {
+  "latitude": 56.66598,
+  "longitude": 60.10921
+  },
+  "northEast": {
+  "latitude": 57.00665,
+  "longitude": 61.01696
+  }
+  }]

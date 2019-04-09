@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  WannaPee
+
+  Created by Vladimir Vlasov on 02.06.2018.
+  Copyright © 2018 Sofatech. All rights reserved.
+*/
+
+"Moscow" = "Москва";
+"Saint Petersburg" = "Санкт-Петербург";
+"Kazan" = "Казань";
+"Kaliningrad" = "Калининград";
+"Nizhny Novgorod" = "Нижний Новгород";
+"Volgograd" = "Волгоград";
+"Samara" = "Самара";
+"Saransk" = "Саранск";
+"Rostov-on-Don" = "Ростов-на-Дону";
+"Sochi" = "Сочи";
+"Yekaterinburg" = "Екатеринбург";
+
+"Route" = "Маршрут";
+"Hide Route" = "Убрать маршрут";
+
+"km" = "км";
+"m" = "м";
+
+"Please, try to submit feedback later." = "Пожалуйста, попробуйте оставить отзыв позднее.";
+
+"Do you want to download an offline map of the city?" = "Скачать офлайн карту города?";
+"Yes" = "Да";
+"Remind me later" = "Напомнить позже";
+"No, thanks" = "Спасибо, нет";
+
+"MB" = "Мб";
+"You are here" = "Вы находитесь здесь";
+
+"Camera access has been denied" = "Доступ к камере запрещен";
+"Please, go to settings, choose \"WannaPee\" and enable the camera option." = "Пожалуйста, откройте настройки, выберите \"WannaPee\" и разрешите доступ к камере.";
+
+"Sending..." = "Идет отправка...";
+"A toilet has been submitted for review" = "Туалет был отправлен на рассмотрение";
+"It will be added into the database as soon as possible. Thank you very much for making WannaPee better!" = "Он будет добавлен в нашу базу как можно скорее. Спасибо, что делаете WannaPee лучше!";
+"Something went wrong" = "Что-то пошло не так...";
+"Please, try to submit a toilet later." = "Пожалуйста, попробуйте добавить туалет позднее.";
+
+"Could not fetch data from the server." = "Не удалось получить данные с сервера.";
+"Could not fetch an offline map." = "Не удалось скачать офлайн карту.";
+"Could not fetch data from the map server." = "Не удалось получить данные от сервера карт.";
+"Unfortunately, a path wasn't found." = "К сожалению, маршрут не был найден.";

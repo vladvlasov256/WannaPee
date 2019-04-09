@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		483C51B68C3C86C00BD70DB1 /* Pods_WannaPee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C38C77B80A7D55290AB94B8 /* Pods_WannaPee.framework */; };
+		E714C55220CA33B6003126F3 /* GeoObjectClustering.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714C55120CA33B6003126F3 /* GeoObjectClustering.swift */; };
+		E72209B6209F353900CEED67 /* GLMapBBoxUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72209B5209F353900CEED67 /* GLMapBBoxUtils.swift */; };
+		E7460BAC209E28AF00E24216 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7460BAB209E28AF00E24216 /* Analytics.swift */; };
+		E74862E9208B8E3300E79EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74862E8208B8E3300E79EF0 /* AppDelegate.swift */; };
+		E74862EB208B8E3300E79EF0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74862EA208B8E3300E79EF0 /* MainViewController.swift */; };
+		E74862EE208B8E3300E79EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74862EC208B8E3300E79EF0 /* Main.storyboard */; };
+		E74862F0208B8E3600E79EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74862EF208B8E3600E79EF0 /* Assets.xcassets */; };
+		E74862F3208B8E3600E79EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74862F1208B8E3600E79EF0 /* LaunchScreen.storyboard */; };
+		E754CCCE20C433EE00F3DE96 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = E754CCCB20C42F1C00F3DE96 /* Model */; };
+		E754CCCF20C433EE00F3DE96 /* Model-shm in Resources */ = {isa = PBXBuildFile; fileRef = E754CCCD20C42F1C00F3DE96 /* Model-shm */; };
+		E754CCD020C433EE00F3DE96 /* Model-wal in Resources */ = {isa = PBXBuildFile; fileRef = E754CCCC20C42F1C00F3DE96 /* Model-wal */; };
+		E76168B0209DA7DD00E9B80D /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = E76168AF209DA7DD00E9B80D /* Cities.json */; };
+		E76168B2209DA80200E9B80D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76168B1209DA80200E9B80D /* City.swift */; };
+		E76168B4209DADE000E9B80D /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76168B3209DADE000E9B80D /* MainModel.swift */; };
+		E769116F20B17805003597AF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E769116E20B17805003597AF /* MenuViewController.swift */; };
+		E76A6EA320B8B1400097D679 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A6EA220B8B1400097D679 /* Token.swift */; };
+		E772FC2920C29B96003D8638 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E772FC2B20C29B96003D8638 /* InfoPlist.strings */; };
+		E7A33F4420A8A3B7004845DA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7A33F4220A8A3B7004845DA /* Model.xcdatamodeld */; };
+		E7A87AED20B18960004FF5E5 /* GeoObjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87AEC20B18960004FF5E5 /* GeoObjectDetailsViewController.swift */; };
+		E7A87AEF20B1A12A004FF5E5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87AEE20B1A12A004FF5E5 /* MapViewController.swift */; };
+		E7A87AF120B1F3F6004FF5E5 /* OfflineMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87AF020B1F3F6004FF5E5 /* OfflineMapsViewController.swift */; };
+		E7A87AF320B1F440004FF5E5 /* OfflineMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87AF220B1F440004FF5E5 /* OfflineMap.swift */; };
+		E7A87AF520B1F6FE004FF5E5 /* OfflineMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87AF420B1F6FE004FF5E5 /* OfflineMapCell.swift */; };
+		E7A87AF720B73A67004FF5E5 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87AF620B73A67004FF5E5 /* NetworkModel.swift */; };
+		E7D4F34120CF96ED0088102F /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D4F34020CF96ED0088102F /* ImageUtils.swift */; };
+		E7DBEAE320BAB2D600F3CEF6 /* CaptionedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DBEAE220BAB2D600F3CEF6 /* CaptionedButton.swift */; };
+		E7DBEAE620BDDC4A00F3CEF6 /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DBEAE520BDDC4A00F3CEF6 /* FeedbackModel.swift */; };
+		E7DBEAE920C25E3200F3CEF6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7DBEAEB20C25E3200F3CEF6 /* Localizable.strings */; };
+		E7DC396220CEE1E20068130F /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC396120CEE1E20068130F /* MenuCell.swift */; };
+		E7DC396420CEE8280068130F /* NewGeoObjectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC396320CEE8280068130F /* NewGeoObjectLocationViewController.swift */; };
+		E7DC396620CF68E80068130F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC396520CF68E80068130F /* ImagePicker.swift */; };
+		E7DC396720CF6CFB0068130F /* NewGeoObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EB5CE20A82D0800440DA4 /* NewGeoObjectViewController.swift */; };
+		E7DC396920CF74E40068130F /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC396820CF74E40068130F /* MapViewContainer.swift */; };
+		E7DC396C20CF7D7F0068130F /* NewGeoObjectPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC396B20CF7D7F0068130F /* NewGeoObjectPageViewController.swift */; };
+		E7DC396E20CF7DCD0068130F /* GeoObjectPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC396D20CF7DCD0068130F /* GeoObjectPhotoViewController.swift */; };
+		E7DC397020CF7DEC0068130F /* GeoObjectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC396F20CF7DEC0068130F /* GeoObjectLocationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C38C77B80A7D55290AB94B8 /* Pods_WannaPee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WannaPee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3AA33239331AAA27DC0418 /* Pods-WannaPee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaPee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WannaPee/Pods-WannaPee.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A9BDFC34C573A85FD4B6CB /* Pods-WannaPee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaPee.release.xcconfig"; path = "Pods/Target Support Files/Pods-WannaPee/Pods-WannaPee.release.xcconfig"; sourceTree = "<group>"; };
+		DE19C7A740D00111911E53E6 /* Pods-WannaPee.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WannaPee.beta.xcconfig"; path = "Pods/Target Support Files/Pods-WannaPee/Pods-WannaPee.beta.xcconfig"; sourceTree = "<group>"; };
+		E714C55120CA33B6003126F3 /* GeoObjectClustering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoObjectClustering.swift; sourceTree = "<group>"; };
+		E72209B5209F353900CEED67 /* GLMapBBoxUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMapBBoxUtils.swift; sourceTree = "<group>"; };
+		E7460BAB209E28AF00E24216 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		E74862E5208B8E3300E79EF0 /* WannaPee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WannaPee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74862E8208B8E3300E79EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E74862EA208B8E3300E79EF0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E74862ED208B8E3300E79EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E74862EF208B8E3600E79EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74862F2208B8E3600E79EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E754CCCB20C42F1C00F3DE96 /* Model */ = {isa = PBXFileReference; lastKnownFileType = file; path = Model; sourceTree = "<group>"; };
+		E754CCCC20C42F1C00F3DE96 /* Model-wal */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Model-wal"; sourceTree = "<group>"; };
+		E754CCCD20C42F1C00F3DE96 /* Model-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Model-shm"; sourceTree = "<group>"; };
+		E756BED320D2E4FF00D74086 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		E75F52A320A8A58E00A97E8E /* WannaPee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WannaPee-Bridging-Header.h"; sourceTree = "<group>"; };
+		E76168AF209DA7DD00E9B80D /* Cities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
+		E76168B1209DA80200E9B80D /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		E76168B3209DADE000E9B80D /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		E769116E20B17805003597AF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E76A6EA220B8B1400097D679 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		E772FC1E20C273C5003D8638 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E772FC2A20C29B96003D8638 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E772FC2C20C29BA6003D8638 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E79EB5CE20A82D0800440DA4 /* NewGeoObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGeoObjectViewController.swift; sourceTree = "<group>"; };
+		E7A33F4320A8A3B7004845DA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E7A87AEC20B18960004FF5E5 /* GeoObjectDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoObjectDetailsViewController.swift; sourceTree = "<group>"; };
+		E7A87AEE20B1A12A004FF5E5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E7A87AF020B1F3F6004FF5E5 /* OfflineMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineMapsViewController.swift; sourceTree = "<group>"; };
+		E7A87AF220B1F440004FF5E5 /* OfflineMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineMap.swift; sourceTree = "<group>"; };
+		E7A87AF420B1F6FE004FF5E5 /* OfflineMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineMapCell.swift; sourceTree = "<group>"; };
+		E7A87AF620B73A67004FF5E5 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		E7D4F34020CF96ED0088102F /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		E7DBEAE220BAB2D600F3CEF6 /* CaptionedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedButton.swift; sourceTree = "<group>"; };
+		E7DBEAE520BDDC4A00F3CEF6 /* FeedbackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackModel.swift; sourceTree = "<group>"; };
+		E7DBEAEA20C25E3200F3CEF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7DBEAEC20C25E3400F3CEF6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7DC396120CEE1E20068130F /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		E7DC396320CEE8280068130F /* NewGeoObjectLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGeoObjectLocationViewController.swift; sourceTree = "<group>"; };
+		E7DC396520CF68E80068130F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E7DC396820CF74E40068130F /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
+		E7DC396B20CF7D7F0068130F /* NewGeoObjectPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGeoObjectPageViewController.swift; sourceTree = "<group>"; };
+		E7DC396D20CF7DCD0068130F /* GeoObjectPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoObjectPhotoViewController.swift; sourceTree = "<group>"; };
+		E7DC396F20CF7DEC0068130F /* GeoObjectLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoObjectLocationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74862E2208B8E3300E79EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483C51B68C3C86C00BD70DB1 /* Pods_WannaPee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337238BC88F77FE7BE22B797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C38C77B80A7D55290AB94B8 /* Pods_WannaPee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61547E5228C26C262B752227 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AA33239331AAA27DC0418 /* Pods-WannaPee.debug.xcconfig */,
+				B0A9BDFC34C573A85FD4B6CB /* Pods-WannaPee.release.xcconfig */,
+				DE19C7A740D00111911E53E6 /* Pods-WannaPee.beta.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E74862DC208B8E3300E79EF0 = {
+			isa = PBXGroup;
+			children = (
+				E74862E7208B8E3300E79EF0 /* WannaPee */,
+				E74862E6208B8E3300E79EF0 /* Products */,
+				61547E5228C26C262B752227 /* Pods */,
+				337238BC88F77FE7BE22B797 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E74862E6208B8E3300E79EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74862E5208B8E3300E79EF0 /* WannaPee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74862E7208B8E3300E79EF0 /* WannaPee */ = {
+			isa = PBXGroup;
+			children = (
+				E76168AC209DA77F00E9B80D /* Models */,
+				E76168AD209DA78C00E9B80D /* Views */,
+				E76168AE209DA7A600E9B80D /* Support Files */,
+				E74862E8208B8E3300E79EF0 /* AppDelegate.swift */,
+				E7460BAB209E28AF00E24216 /* Analytics.swift */,
+				E72209B5209F353900CEED67 /* GLMapBBoxUtils.swift */,
+				E7D4F34020CF96ED0088102F /* ImageUtils.swift */,
+				E75F52A320A8A58E00A97E8E /* WannaPee-Bridging-Header.h */,
+				E74862EF208B8E3600E79EF0 /* Assets.xcassets */,
+				E74862F1208B8E3600E79EF0 /* LaunchScreen.storyboard */,
+				E772FC1E20C273C5003D8638 /* Info.plist */,
+				E772FC2B20C29B96003D8638 /* InfoPlist.strings */,
+			);
+			path = WannaPee;
+			sourceTree = "<group>";
+		};
+		E76168AC209DA77F00E9B80D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7A33F4220A8A3B7004845DA /* Model.xcdatamodeld */,
+				E76168B1209DA80200E9B80D /* City.swift */,
+				E76168B3209DADE000E9B80D /* MainModel.swift */,
+				E7A87AF220B1F440004FF5E5 /* OfflineMap.swift */,
+				E7A87AF620B73A67004FF5E5 /* NetworkModel.swift */,
+				E76A6EA220B8B1400097D679 /* Token.swift */,
+				E7DBEAE520BDDC4A00F3CEF6 /* FeedbackModel.swift */,
+				E714C55120CA33B6003126F3 /* GeoObjectClustering.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E76168AD209DA78C00E9B80D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7AF39A220CFFD0E00CF7EC6 /* Menu */,
+				E7AF39A120CFFCFC00CF7EC6 /* Main */,
+				E7AF39A020CFFC7500CF7EC6 /* OfflineMaps */,
+				E7DC396A20CF7D560068130F /* AddToilet */,
+				E74862EC208B8E3300E79EF0 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E76168AE209DA7A600E9B80D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E754CCCB20C42F1C00F3DE96 /* Model */,
+				E754CCCD20C42F1C00F3DE96 /* Model-shm */,
+				E754CCCC20C42F1C00F3DE96 /* Model-wal */,
+				E76168AF209DA7DD00E9B80D /* Cities.json */,
+				E7DBEAEB20C25E3200F3CEF6 /* Localizable.strings */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		E7AF39A020CFFC7500CF7EC6 /* OfflineMaps */ = {
+			isa = PBXGroup;
+			children = (
+				E7A87AF020B1F3F6004FF5E5 /* OfflineMapsViewController.swift */,
+				E7A87AF420B1F6FE004FF5E5 /* OfflineMapCell.swift */,
+			);
+			path = OfflineMaps;
+			sourceTree = "<group>";
+		};
+		E7AF39A120CFFCFC00CF7EC6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E74862EA208B8E3300E79EF0 /* MainViewController.swift */,
+				E7A87AEC20B18960004FF5E5 /* GeoObjectDetailsViewController.swift */,
+				E7A87AEE20B1A12A004FF5E5 /* MapViewController.swift */,
+				E7DBEAE220BAB2D600F3CEF6 /* CaptionedButton.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E7AF39A220CFFD0E00CF7EC6 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E769116E20B17805003597AF /* MenuViewController.swift */,
+				E7DC396120CEE1E20068130F /* MenuCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E7DC396A20CF7D560068130F /* AddToilet */ = {
+			isa = PBXGroup;
+			children = (
+				E7DC396520CF68E80068130F /* ImagePicker.swift */,
+				E7DC396320CEE8280068130F /* NewGeoObjectLocationViewController.swift */,
+				E79EB5CE20A82D0800440DA4 /* NewGeoObjectViewController.swift */,
+				E7DC396820CF74E40068130F /* MapViewContainer.swift */,
+				E7DC396B20CF7D7F0068130F /* NewGeoObjectPageViewController.swift */,
+				E7DC396D20CF7DCD0068130F /* GeoObjectPhotoViewController.swift */,
+				E7DC396F20CF7DEC0068130F /* GeoObjectLocationViewController.swift */,
+			);
+			path = AddToilet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74862E4208B8E3300E79EF0 /* WannaPee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74862F7208B8E3600E79EF0 /* Build configuration list for PBXNativeTarget "WannaPee" */;
+			buildPhases = (
+				96B102B53B9F2FE80BAC1626 /* [CP] Check Pods Manifest.lock */,
+				E74862E1208B8E3300E79EF0 /* Sources */,
+				E74862E2208B8E3300E79EF0 /* Frameworks */,
+				E74862E3208B8E3300E79EF0 /* Resources */,
+				E4CA14A22E3AABA73BF070F2 /* [CP] Embed Pods Frameworks */,
+				E7DB6022B9D317D8824D503C /* [CP] Copy Pods Resources */,
+				E7460BAA209E240E00E24216 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WannaPee;
+			productName = WannaPee;
+			productReference = E74862E5208B8E3300E79EF0 /* WannaPee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74862DD208B8E3300E79EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Sofatech;
+				TargetAttributes = {
+					E74862E4208B8E3300E79EF0 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = E74862E0208B8E3300E79EF0 /* Build configuration list for PBXProject "WannaPee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = E74862DC208B8E3300E79EF0;
+			productRefGroup = E74862E6208B8E3300E79EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74862E4208B8E3300E79EF0 /* WannaPee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74862E3208B8E3300E79EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E754CCCE20C433EE00F3DE96 /* Model in Resources */,
+				E7DBEAE920C25E3200F3CEF6 /* Localizable.strings in Resources */,
+				E754CCD020C433EE00F3DE96 /* Model-wal in Resources */,
+				E754CCCF20C433EE00F3DE96 /* Model-shm in Resources */,
+				E76168B0209DA7DD00E9B80D /* Cities.json in Resources */,
+				E74862F3208B8E3600E79EF0 /* LaunchScreen.storyboard in Resources */,
+				E74862F0208B8E3600E79EF0 /* Assets.xcassets in Resources */,
+				E772FC2920C29B96003D8638 /* InfoPlist.strings in Resources */,
+				E74862EE208B8E3300E79EF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96B102B53B9F2FE80BAC1626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WannaPee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CA14A22E3AABA73BF070F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WannaPee/Pods-WannaPee-frameworks.sh",
+				"${PODS_ROOT}/GLMap+DynamicLib/GLMap.framework",
+				"${BUILT_PRODUCTS_DIR}/GLMapSwift/GLMapSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/LNRSimpleNotifications/LNRSimpleNotifications.framework",
+				"${BUILT_PRODUCTS_DIR}/MRProgress/MRProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GLMap.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GLMapSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LNRSimpleNotifications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaPee/Pods-WannaPee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7460BAA209E240E00E24216 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" FABRIC_API_KEY\n";
+		};
+		E7DB6022B9D317D8824D503C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WannaPee/Pods-WannaPee-resources.sh",
+				"${PODS_ROOT}/GLMap+DefaultStyle/DefaultStyle.bundle",
+				"${PODS_ROOT}/GLMap+DefaultStyle/fonts",
+				"${PODS_ROOT}/GLMap+WorldMap/world.vm",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DefaultStyle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fonts",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/world.vm",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WannaPee/Pods-WannaPee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74862E1208B8E3300E79EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DBEAE620BDDC4A00F3CEF6 /* FeedbackModel.swift in Sources */,
+				E7A87AF520B1F6FE004FF5E5 /* OfflineMapCell.swift in Sources */,
+				E7DC396E20CF7DCD0068130F /* GeoObjectPhotoViewController.swift in Sources */,
+				E76168B4209DADE000E9B80D /* MainModel.swift in Sources */,
+				E7DC396620CF68E80068130F /* ImagePicker.swift in Sources */,
+				E74862EB208B8E3300E79EF0 /* MainViewController.swift in Sources */,
+				E769116F20B17805003597AF /* MenuViewController.swift in Sources */,
+				E7DC396C20CF7D7F0068130F /* NewGeoObjectPageViewController.swift in Sources */,
+				E7DC396720CF6CFB0068130F /* NewGeoObjectViewController.swift in Sources */,
+				E7A87AF320B1F440004FF5E5 /* OfflineMap.swift in Sources */,
+				E7DC396920CF74E40068130F /* MapViewContainer.swift in Sources */,
+				E7D4F34120CF96ED0088102F /* ImageUtils.swift in Sources */,
+				E7DC396220CEE1E20068130F /* MenuCell.swift in Sources */,
+				E7DC397020CF7DEC0068130F /* GeoObjectLocationViewController.swift in Sources */,
+				E72209B6209F353900CEED67 /* GLMapBBoxUtils.swift in Sources */,
+				E7A87AF720B73A67004FF5E5 /* NetworkModel.swift in Sources */,
+				E76A6EA320B8B1400097D679 /* Token.swift in Sources */,
+				E7A87AEF20B1A12A004FF5E5 /* MapViewController.swift in Sources */,
+				E7DC396420CEE8280068130F /* NewGeoObjectLocationViewController.swift in Sources */,
+				E74862E9208B8E3300E79EF0 /* AppDelegate.swift in Sources */,
+				E7A33F4420A8A3B7004845DA /* Model.xcdatamodeld in Sources */,
+				E7DBEAE320BAB2D600F3CEF6 /* CaptionedButton.swift in Sources */,
+				E7460BAC209E28AF00E24216 /* Analytics.swift in Sources */,
+				E7A87AF120B1F3F6004FF5E5 /* OfflineMapsViewController.swift in Sources */,
+				E7A87AED20B18960004FF5E5 /* GeoObjectDetailsViewController.swift in Sources */,
+				E714C55220CA33B6003126F3 /* GeoObjectClustering.swift in Sources */,
+				E76168B2209DA80200E9B80D /* City.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E74862EC208B8E3300E79EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74862ED208B8E3300E79EF0 /* Base */,
+				E756BED320D2E4FF00D74086 /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E74862F1208B8E3600E79EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74862F2208B8E3600E79EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E772FC2B20C29B96003D8638 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E772FC2A20C29B96003D8638 /* en */,
+				E772FC2C20C29BA6003D8638 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7DBEAEB20C25E3200F3CEF6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DBEAEA20C25E3200F3CEF6 /* en */,
+				E7DBEAEC20C25E3400F3CEF6 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7288E6A209E38FA00FB35F2 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		E7288E6B209E38FA00FB35F2 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE19C7A740D00111911E53E6 /* Pods-WannaPee.beta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = D7W8SK38P9;
+				INFOPLIST_FILE = WannaPee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofatech.wannapee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d014b796-138a-4dae-9a3f-c386864200ad";
+				PROVISIONING_PROFILE_SPECIFIER = WannaPeeAdHoc;
+				SWIFT_OBJC_BRIDGING_HEADER = "WannaPee/WannaPee-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Beta;
+		};
+		E74862F5208B8E3600E79EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E74862F6208B8E3600E79EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74862F8208B8E3600E79EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3AA33239331AAA27DC0418 /* Pods-WannaPee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = D7W8SK38P9;
+				INFOPLIST_FILE = WannaPee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofatech.wannapee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37813c54-1bfd-4772-8f3e-653c90181559";
+				PROVISIONING_PROFILE_SPECIFIER = "WannaPee-Dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "WannaPee/WannaPee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		E74862F9208B8E3600E79EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A9BDFC34C573A85FD4B6CB /* Pods-WannaPee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = D7W8SK38P9;
+				INFOPLIST_FILE = WannaPee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofatech.wannapee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d9c0b5f8-59cb-40eb-b9c2-26d898547051";
+				PROVISIONING_PROFILE_SPECIFIER = "WannaPee-Distr";
+				SWIFT_OBJC_BRIDGING_HEADER = "WannaPee/WannaPee-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74862E0208B8E3300E79EF0 /* Build configuration list for PBXProject "WannaPee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74862F5208B8E3600E79EF0 /* Debug */,
+				E74862F6208B8E3600E79EF0 /* Release */,
+				E7288E6A209E38FA00FB35F2 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74862F7208B8E3600E79EF0 /* Build configuration list for PBXNativeTarget "WannaPee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74862F8208B8E3600E79EF0 /* Debug */,
+				E74862F9208B8E3600E79EF0 /* Release */,
+				E7288E6B209E38FA00FB35F2 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7A33F4220A8A3B7004845DA /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7A33F4320A8A3B7004845DA /* Model.xcdatamodel */,
+			);
+			currentVersion = E7A33F4320A8A3B7004845DA /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E74862DD208B8E3300E79EF0 /* Project object */;
+}

@@ -1,0 +1,33 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] = "YOUR_PASSWORD"
+
+fabric_api_token = "YOUR_API_TOKEN"
+fabric_build_secret = "YOUR_SECRET"
+
+platform :ios do
+  desc "Push a new beta build to Fabric"
+  lane :beta do
+    cocoapods
+    increment_build_number(xcodeproj: "WannaPee.xcodeproj")
+    build_app(workspace: "WannaPee.xcworkspace", scheme: "WannaPee", configuration: "Beta", include_bitcode: false, export_method: "ad-hoc")
+    crashlytics(api_token: fabric_api_token, build_secret: fabric_build_secret)
+    upload_symbols_to_crashlytics
+    clean_build_artifacts
+  end
+end
